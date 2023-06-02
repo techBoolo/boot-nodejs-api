@@ -1,4 +1,6 @@
 import express from 'express'
+import 'express-async-errors'
+
 import routeNotFound from './middlewares/route_not_found.js'
 import errorHandler from './middlewares/error_handler.js'
 import requestLogger from './middlewares/request_logger.js'
